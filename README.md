@@ -18,36 +18,8 @@ Finance Mate adalah aplikasi Flutter sederhana untuk membantu pengguna melacak k
 - `TransactionItem` → Item transaksi dengan keterangan dan nilai
 - `GridMenuItem` → Untuk tata letak kategori yang rapi
 
----
 
-## Struktur Folder
-
-financeapp/
-│
-├── lib/
-│ ├── main.dart
-│ ├── screens/
-│ │ └── home_screen.dart
-│ ├── widgets/
-│ │ ├── atm_card.dart
-│ │ ├── category_chip.dart
-│ │ ├── grid_menu_item.dart
-│ │ └── transaction_item.dart
-│ └── models/
-│ └── transaction.dart
-│
-├── assets/
-│ ├── images/
-│ └── screenshots/
-│
-├── pubspec.yaml
-├── README.md
-└── .gitignore
-
-
----
-
-## 📸 Tampilan Aplikasi
+## Tampilan Aplikasi
 
 ![Home](assets/screenshots/home.jpeg) | 
 
