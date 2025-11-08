@@ -1,10 +1,10 @@
-# 💸 Finance Mate
+# Finance Mate
 
 Finance Mate adalah aplikasi Flutter sederhana untuk membantu pengguna melacak keuangan pribadi — menampilkan kartu bank digital, kategori transaksi dengan ikon, serta daftar transaksi terbaru dalam desain yang modern dan responsif.
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 ✅ **Splash Screen** — Layar pembuka dengan logo aplikasi  
 ✅ **Home Screen** — Menampilkan:
@@ -12,7 +12,7 @@ Finance Mate adalah aplikasi Flutter sederhana untuk membantu pengguna melacak k
 - Kategori transaksi (Health, Event, Food, Travel)
 - Riwayat transaksi terbaru (pemasukan & pengeluaran)
 
-✅ **Widget Modular**
+ **Widget Modular**
 - `AtmCard` → Komponen kartu bank dengan warna gradasi
 - `CategoryChip` → Komponen kategori dengan ikon & warna lembut
 - `TransactionItem` → Item transaksi dengan keterangan dan nilai
@@ -20,5 +20,34 @@ Finance Mate adalah aplikasi Flutter sederhana untuk membantu pengguna melacak k
 
 ---
 
-## 🧱 Struktur Folder
+## Struktur Folder
+
+financeapp/
+│
+├── lib/
+│ ├── main.dart
+│ ├── screens/
+│ │ └── home_screen.dart
+│ ├── widgets/
+│ │ ├── atm_card.dart
+│ │ ├── category_chip.dart
+│ │ ├── grid_menu_item.dart
+│ │ └── transaction_item.dart
+│ └── models/
+│ └── transaction.dart
+│
+├── assets/
+│ ├── images/
+│ └── screenshots/
+│
+├── pubspec.yaml
+├── README.md
+└── .gitignore
+
+
+---
+
+## 📸 Tampilan Aplikasi
+
+![Home](assets/screenshots/home.jpeg) | 
 
